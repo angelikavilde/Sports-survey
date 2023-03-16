@@ -17,12 +17,15 @@ label[for="submit"] {
   font-family: "Rubik", sans-serif;
   background-color: rgb(62, 101, 146);
   border-radius: 0.5em;
-  border: 0.3em solid rgb(62, 101, 146);
+  height: 2em;
+  width: 5em;
+  border: 0.1em solid rgb(62, 101, 146);
   color: white;
   cursor: pointer;
 }
+
 #submit:hover {
-  background-color: #92e22a;
+  background-color: rgb(80, 127, 180);
 }
 body {
   background-image: linear-gradient(
