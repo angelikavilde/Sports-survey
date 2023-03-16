@@ -19,6 +19,10 @@ label[for="submit"] {
   border-radius: 0.5em;
   border: 0.3em solid rgb(62, 101, 146);
   color: white;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #92e22a;
 }
 body {
   background-image: linear-gradient(
