@@ -1,0 +1,74 @@
+#title {
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+#description {
+  margin-bottom: 0.3em;
+  margin-top: 0;
+}
+label {
+  display: block;
+}
+label[for="submit"] {
+  text-align: center;
+  margin: 0 auto 0.5em auto;
+}
+#submit {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(62, 101, 146);
+  border-radius: 0.5em;
+  border: 0.3em solid rgb(62, 101, 146);
+  color: white;
+}
+body {
+  background-image: linear-gradient(
+    to bottom left,
+    #536eb7,
+    rgb(241, 241, 115)
+  );
+  background-image: url("https://github.com/angelikavilde/Sports-survey/blob/main/pexels-photo-61135.jpeg?raw=true");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div {
+  background-color: rgb(198, 210, 241);
+  border-radius: 2em;
+  border: 0.3em solid rgb(62, 101, 146);
+  margin: 0 30% 0 30%;
+}
+fieldset {
+  border: unset;
+  border-bottom: 0.1em solid rgb(112, 141, 176);
+  margin: 0 10% 0 10%;
+}
+label,
+h1,
+p {
+  display: block;
+  text-align: center;
+}
+.field-no-border {
+  border-bottom: none;
+  text-align: center;
+}
+html {
+  min-height: 100%;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+#personal-info {
+  margin-top: 1em;
+}
+.name-email {
+  margin-bottom: 1em;
+}
+#number {
+  margin-top: 0;
+}
+textarea,
+select {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
