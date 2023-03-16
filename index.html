@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  
+<head>
+    <title>Sports Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <fieldset>
+        <h1 id="title">
+          <meta charset="UTF-8" />
+          Sports Survey
+        </h1>
+
+        <p id="description">
+          Which sports do students at universities participate in
+        </p>
+      </fieldset>
+      <form id="survey-form" method="post" url="#">
+        <fieldset id="personal-info">
+          <label class="name-email" " for="name">
+            * Enter your name:
+            <input type="text" id="name" placeholder="name" required />
+          </label>
+
+          <label class="name-email" for="email">
+            * Enter your email:
+            <input
+              required
+              type="email"
+              id="email"
+              placeholder="name@email.com"
+            />
+          </label>
+
+          <label id="number" for="number">
+            * Enter your contact number:
+            <input
+              type="number"
+              min="7"
+              id="number"
+              placeholder="0743..."
+              required
+            />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <p>Are you a student at a university?</p>
+          <label>
+            Student
+            <input
+              type="radio"
+              value="student"
+              name="bullet1"/>Non-student
+            <input type="radio" checked value="non-student" name="bullet1" />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <p>Do you participate in any sports at university?</p>
+          <select name="options" id="dropdown">
+            <option value="non-student"
+              >I am not a student at university</option
+            >
+            <option value="no-sport">I do not participate in any sports</option>
+            <option value="dance">Dance</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="football">Football</option>
+            <option value="tennis">Tennis</option>
+            <option value="basketball">Basketball</option>
+            <option value="rugby">Rugby</option>
+            <option value="swimming">Swimming</option>
+            <option value="gymnastics">Gymnastics</option>
+            <option value="badminton">Badminton</option>
+            <option value="other">Other</option>
+          </select>
+          <p>
+            If you chose 'other' please specify which sport you participate in:
+          </p>
+          <textarea min="5" rows="1"></textarea>
+
+          <p>If you participate in multiple sports list them below:</p>
+          <textarea min="5" rows="2" placeholder="I do ..."></textarea>
+        </fieldset>
+
+        <fieldset class="field-no-border">
+          <p>If you participate in sports, do you compete in competitions?</p>
+          <label for="comptetitions">
+            Yes <input type="checkbox" name="competitions" value="yes" /> No
+            <input type="checkbox" name="competitions" value="no" />
+          </label>
+        </fieldset>
+
+        <fieldset class="field-no-border">
+          <label for="submit">
+            <input id="submit" type="submit" value="Submit" />
+          </label>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
