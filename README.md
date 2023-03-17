@@ -1,7 +1,7 @@
 # Sports Survey
 ## freeCodeCamp
 
-This is one of the projects for Responsive Web Design certification at freeCodeCamp. The course included multiple classes on HTML and CSS and the learnt tags and functions are listed below. The project was finalised on 16/03/2023.
+This is one of the projects for Responsive Web Design certification at freeCodeCamp. The course included multiple classes on HTML and CSS for a survey form; the learnt tags and functions are listed below. The project was finalised on 16/03/2023.
 
 Studied topics and functions:
   * fieldset, label and div for separation of elements
